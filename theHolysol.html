@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Holy Sol - A meme coin powered by the sun and community. Join the revolution today!">
+  <meta name="keywords" content="The Holy Sol, meme coin, cryptocurrency, blockchain, DEX, wallet">
+  <meta name="author" content="The Holy Sol Team">
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="The Holy Sol - Meme Coin Revolution">
+  <meta property="og:description" content="Discover The Holy Sol, a sun-powered meme coin built for the community. Trade, connect, and shine!">
+  <meta property="og:image" content="https://yourdomain.com/images/og-image.webp">
+  <meta property="og:url" content="https://yourdomain.com">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Cryptocurrency",
+    "name": "The Holy Sol",
+    "description": "A community-driven meme coin inspired by the power of the sun.",
+    "url": "https://yourdomain.com"
+  }
+  </script>
+  <title>The Holy Sol - Meme Coin Revolution</title>
+  <link rel="stylesheet" href="theHolysol.css">
+  <link rel="icon" href="the_holy_sol_logo.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Fixed Navbar -->
+  <header role="banner" id="topHeader">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="logo">
+        <a href="#topHeader" aria-label="The Holy Sol homepage">
+          <img src="the_holy_sol_logo.jpg" alt="The Holy Sol logo" width="40" height="40">
+        </a>
+      </div>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about" aria-label="Go to About section">About</a></li>
+        <li><a href="#wallet" aria-label="Go to Wallet section">Wallet</a></li>
+        <li><a href="#dex" aria-label="Go to DEX section">Trade</a></li>
+        <li><a href="#community" aria-label="Go to Community section">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" aria-labelledby="hero-heading">
+    <div class="hero-content">
+      <p>Welcome to</p>
+      <h1 id="hero-heading"><span class="cross">t</span>he Holy Sol</h1>
+      <p>Shine bright with our meme coin! empowered with Holy Souls</p>
+      <a href="#community" class="cta-button" role="button" aria-label="Join the Holy Sol community">Join Now</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- Disclaimer Section -->
+    <section id="disclaimer" aria-labelledby="disclaimer-heading">
+      <h2 id="disclaimer-heading">Important Disclaimer</h2>
+      <div class="disclaimer-box">
+        <p><strong>Warning:</strong> Cryptocurrency investments, including The Holy Sol, are highly volatile and speculative. Trading or investing in cryptocurrencies carries significant financial risk, and you may lose all or part of your investment. Always conduct thorough research and consult with a financial advisor before participating. The Holy Sol team is not responsible for any financial losses.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About <span class="cross">t</span>he Holy Sol</h2>
+      <p><span class="cross">t</span>he Holy Sol is a meme coin built on the Solana blockchain, designed to unite and celebrate the collective spirit of "holy souls" — a community driven by positivity, shared values, and a touch of humor. Inspired by the vibrant and fast-growing Solana ecosystem, The Holy Sol aims to embody a lighthearted yet unifying mission, bringing together meme enthusiasts, crypto degens, and believers in a higher vibe.</p>
+    </section>
+
+    <!-- Wallet Section -->
+    <section id="wallet" aria-labelledby="wallet-heading">
+      <h2 id="wallet-heading">Get Your Wallet Ready</h2>
+      <p>Send $SOL to the address below or scan the QR code:</p>
+      <div class="wallet-container">
+        <p id="wallet-address" aria-live="polite">YOUR_WALLET_ADDRESS_HERE</p>
+        <button onclick="copyWalletAddress()" aria-label="Copy wallet address to clipboard">Copy Address</button>
+        <img src="qr-code.webp" alt="QR code for The Holy Sol wallet address" loading="lazy">
+      </div>
+    </section>
+
+    <!-- DEX Section -->
+    <section id="dex" aria-labelledby="dex-heading">
+      <h2 id="dex-heading">Trade <span class="cross">t</span>he Holy Sol</h2>
+      <p>Buy, sell, or trade $SOL on our partner DEX platform below:</p>
+      <div style="display: flex; justify-content: space-around;">
+        <a href="https://axiom.trade/" class="cta-button" role="button" aria-label="Axiom trade">AXIOM</a>
+        <a href="https://dexscreener.com/" class="cta-button" role="button" aria-label="Dexscreener">Dexscreener</a>
+        <a href="https://pump.fun/" class="cta-button" role="button" aria-label="Pumpfun">Pump fun</a>
+      </div>
+      
+    </section>
+
+    <!-- Community Section with Icons -->
+    <section id="community" aria-labelledby="community-heading">
+      <h2 id="community-heading">Join Our Community</h2>
+      <p>Connect with fellow holy souls on our social platforms:</p>
+      <ul class="social-links">
+        <li>
+          <a href="https://t.me/theholysol" aria-label="Join The Holy Sol Telegram group">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/Pv7FVgnVK9" aria-label="Join The Holy Sol Discord server">
+            <i class="fab fa-discord"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/theHolySol7" aria-label="Follow The Holy Sol on X">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>© 2025 <span class="cross">t</span>he Holy Sol. All rights reserved.</p>
+    <p><a href="/privacy" aria-label="View privacy policy">Privacy Policy</a> | <a href="/terms" aria-label="View terms of service">Terms of Service</a></p>
+  </footer>
+
+  <script src="theHolysol.js"></script>
+</body>
+</html>
